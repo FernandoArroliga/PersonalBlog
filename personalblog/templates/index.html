@@ -55,7 +55,22 @@
             <!-- item -->
             <div class = "blog-item">
               <div class = "blog-img">
-                <img src = "images/blog-p-1.jpg" alt = "">
+                <img src = "{% static "images/blog-p-1.jpg" %}" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+              </div>
+              <div class = "blog-text">
+                <span>20 January, 2023</span>
+                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil! Quaerat.</p>
+                <a href = "#">Read More</a>
+              </div>
+            </div>
+            <!-- end of item -->
+            
+            <!-- item -->
+            <div class = "blog-item">
+              <div class = "blog-img">
+                <img src = "{% static "images/blog-p-2.jpg" %}" alt = "">
                 <span><i class = "far fa-heart"></i></span>
               </div>
               <div class = "blog-text">
@@ -69,7 +84,7 @@
             <!-- item -->
             <div class = "blog-item">
               <div class = "blog-img">
-                <img src = "images/blog-p-2.jpg" alt = "">
+                <img src = "{% static "images/blog-p-3.jpg" %}" alt = "">
                 <span><i class = "far fa-heart"></i></span>
               </div>
               <div class = "blog-text">
@@ -83,7 +98,7 @@
             <!-- item -->
             <div class = "blog-item">
               <div class = "blog-img">
-                <img src = "images/blog-p-3.jpg" alt = "">
+                <img src = "{% static "images/blog-p-4.jpg" %}" alt = "">
                 <span><i class = "far fa-heart"></i></span>
               </div>
               <div class = "blog-text">
@@ -97,7 +112,7 @@
             <!-- item -->
             <div class = "blog-item">
               <div class = "blog-img">
-                <img src = "images/blog-p-4.jpg" alt = "">
+                <img src = {% static "images/blog-p-5.jpg" %} alt = "">
                 <span><i class = "far fa-heart"></i></span>
               </div>
               <div class = "blog-text">
@@ -111,21 +126,7 @@
             <!-- item -->
             <div class = "blog-item">
               <div class = "blog-img">
-                <img src = "images/blog-p-5.jpg" alt = "">
-                <span><i class = "far fa-heart"></i></span>
-              </div>
-              <div class = "blog-text">
-                <span>20 January, 2023</span>
-                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil! Quaerat.</p>
-                <a href = "#">Read More</a>
-              </div>
-            </div>
-            <!-- end of item -->
-            <!-- item -->
-            <div class = "blog-item">
-              <div class = "blog-img">
-                <img src = "images/blog-p-6.jpg" alt = "">
+                <img src = "{% static "images/blog-p-6.jpg" %}" alt = "">
                 <span><i class = "far fa-heart"></i></span>
               </div>
               <div class = "blog-text">
@@ -146,7 +147,7 @@
         <div class = "container">
           <div class = "about-content">
             <div>
-              <img src = "images/about-bg.jpg" alt = "">
+              <img src = {% static "images/about-bg.jpg" %} alt = "">
             </div>
             <div class = "about-text">
               <div class = "title">
